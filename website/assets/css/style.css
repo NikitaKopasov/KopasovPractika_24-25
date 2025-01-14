@@ -23,18 +23,43 @@ body
 
 .nav
 {
+    margin-top: 44px;
     display: flex;
-
+    justify-content: space-around;
+}
+.logo
+{
+    margin-right: auto;
+    font-family: 'Montserrat-Regular';
+    font-weight: 700;
+    font-size: 24px;
+    color: #244d4d;
+}
+.right-nav
+{
+    margin-left: auto;
+}
+.loupe
+{
+    margin-right: 30px;
+}
+.spisok
+{
+    font-family: 'DMSans-Regular';
+    font-weight: 400;
+    font-size: 16px;
 }
 header nav ul li 
 {
     list-style: none;
+    float: left;
+    position: relative;
 }
  header nav ul li a{
     text-decoration: none;
-    
+    color: #161616;
+    margin: 50px;
  }
-
 /* Фон с текстом */
 
 section#fon
@@ -43,4 +68,81 @@ section#fon
     width: 1200px;
     height: 560px;
     margin: auto;
+    margin-top: 27px;
+    display: flex;
+}
+.fon-text
+{
+    width: 671px;
+    height: 231px;
+    margin-top: 101px;
+    margin-left: 100px;
+}
+.fon-title
+{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Montserrat-Regular';
+    color: #ffffff;
+}
+.description
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'DMSans-Regular';
+    width: 488px;
+    height: 75px;
+    margin-top: 20px;
+}
+.fon-button
+{
+    margin-top: 35px;
+    width: 172.58px;
+    height: 56px;
+    color: #ffffff;
+}
+.fon-button-link
+{
+    text-decoration: none;
+    color: #154444;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'DMSans-Regular';
+}
+
+/*Секция №2 Trusted by 20,000+ companies*/
+
+.zagolovok1
+{
+    text-align: center;
+    font-size: 32px;
+    color: #244d4d;
+    font-weight: 700;
+    font-family: 'DMSans-Regular';
+    margin-top: 140px;
+}
+.img-company
+{
+    margin-top: 40px;
+    width: 1082px;
+    height: 52px;
+    margin-left: 59px;
+    display: flex;
+    align-items: center;
+}
+
+.img-company img {
+    margin-right: 100px; /* Устанавливаем отступ справа */
+}
+
+
+/**/
+
+section#AboutUs
+{
+    width: 1168px;
+    height: 612.21px;
+    background-color: aliceblue;
+    margin-top: 140px;
 }
