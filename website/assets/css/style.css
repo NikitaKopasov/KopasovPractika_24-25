@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+.logo
+{
+    margin-left: 120px;
+}
+.log
+{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 24px;
+}
+
+.spisok
+{
+    list-style: none;
+}
+header nav ul li
+{
+    position: relative;
+    float: left;
+    
+}
+header nav ul li a
+{
+    text-decoration: none;
+    margin-right: 70px;
+    color: #424242;
+    font-size: 26px;
+    
+}
