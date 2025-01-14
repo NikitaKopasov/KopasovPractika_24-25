@@ -145,4 +145,34 @@ section#AboutUs
     height: 612.21px;
     background-color: aliceblue;
     margin-top: 140px;
+    display: flex;
+}
+.shadow
+{
+    width: 631px;
+    height: 586px;
+    background-color: #dee4e2;
+}
+.about-info
+{
+    width: 436.73px;
+    height: 135px;
+    margin-left: 100px;
+    margin-top: 46.5px;
+}
+.zagolovok-about
+{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat-Regular';
+    color: #244d4d;
+    line-height: 40px;
+}
+.text-about
+{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DMSans-Regular';
+    color: #444444;
+    line-height: 25px;
 }
