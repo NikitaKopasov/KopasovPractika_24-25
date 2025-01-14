@@ -5,35 +5,42 @@
 }
 
 @font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url('../fonts/DMSANS/DMSans-Regular.ttf');
 }
 
-.logo
+body
 {
-    margin-left: 120px;
-}
-.log
-{
-    font-family: 'Montserrat-SemiBold';
-    font-size: 24px;
+    margin: auto;
+    max-width: 1200px;
 }
 
-.spisok
+/* Шапка*/
+
+.nav
+{
+    display: flex;
+
+}
+header nav ul li 
 {
     list-style: none;
 }
-header nav ul li
-{
-    position: relative;
-    float: left;
-    
-}
-header nav ul li a
-{
+ header nav ul li a{
     text-decoration: none;
-    margin-right: 70px;
-    color: #424242;
-    font-size: 26px;
     
+ }
+
+/* Фон с текстом */
+
+section#fon
+{
+    background: #154444;
+    width: 1200px;
+    height: 560px;
+    margin: auto;
 }
