@@ -12,11 +12,16 @@
     font-family: 'DMSans-Regular';
     src: url('../fonts/DMSANS/DMSans-Regular.ttf');
 }
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
 
 body
 {
     margin: auto;
     max-width: 1200px;
+    background-color: #fcfbff;
 }
 
 /* Шапка*/
@@ -30,7 +35,7 @@ body
 .logo
 {
     margin-right: auto;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Medium';
     font-weight: 700;
     font-size: 24px;
     color: #244d4d;
@@ -137,13 +142,12 @@ section#fon
 }
 
 
-/**/
+/*About Us*/
 
 section#AboutUs
 {
     width: 1168px;
-    height: 612.21px;
-    background-color: aliceblue;
+    height: 612px;
     margin-top: 140px;
     display: flex;
 }
@@ -152,19 +156,20 @@ section#AboutUs
     width: 631px;
     height: 586px;
     background-color: #dee4e2;
+    margin-top: 25px;
 }
 .about-info
 {
     width: 436.73px;
     height: 135px;
     margin-left: 100px;
-    margin-top: 46.5px;
+    margin-top: 47px;
 }
 .zagolovok-about
 {
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Medium';
     color: #244d4d;
     line-height: 40px;
 }
@@ -176,4 +181,126 @@ section#AboutUs
     color: #444444;
     line-height: 25px;
     
+}
+.aboutImg
+{
+    position: absolute;
+    width: 596px;
+    height: 577px;
+}
+
+/*BestQuality*/
+
+.BestQuality
+{
+    display: flex;
+    margin-top: 40px;
+    width: 376px;
+    height: 92px;
+}
+.BestQuality img {
+    max-height: 50px;
+    object-fit: cover; /* Позволяет сохранить пропорции изображения */
+}
+
+/*Secure*/
+
+.Secure
+{
+    display: flex;
+    margin-top: 30px;
+    width: 345px;
+    height: 92px;
+}
+.Secure img {
+    max-height: 50px;
+    object-fit: cover; /* Позволяет сохранить пропорции изображения */
+}
+
+/*Free Shpping*/
+
+.Shpping
+{
+    display: flex;
+    margin-top: 30px;
+    width: 345px;
+    height: 92px;
+}
+.Shpping img
+{
+    max-height: 50px;
+    object-fit: cover;
+}
+
+.info-bestquality-secure-shpping
+{
+    margin-left: 28px;
+}
+.title-bestquality-secure-shpping
+{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat-Medium';
+    color: #244d4d;
+}
+.text-bestquality-secure-shpping
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DMSans-Regular';
+    color: #383738;
+    margin-top: 14px;
+}
+
+/*Секция OurnPopular Furniture*/
+
+section#Our-Popular-Furniture
+{
+    width: 1200px;
+    height: 585px;
+    background-color: aliceblue;
+    margin-top: 140px;
+}
+.title-Our-Popular-Furniture
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #242424;
+    font-family: 'Montserrat-Medium';
+}
+.text-Our-Popular-Furniture
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #383738;
+    font-family: 'DMSans-Regular';
+    margin-top: 20px;
+    width: 820px;
+}
+/*Кнопки перехода*/
+.upper-part {
+    display: flex;
+    justify-content: space-between; /* Разделяет пространство между элементами */
+    align-items: center; /* Центрирует элементы по вертикали */
+    height: 123px;
+}
+
+.knopki {
+    display: flex;
+    margin-left: auto; /* Прижимает кнопки к правому краю */
+    margin-top: auto;
+}
+
+.knopka1, .knopka2 {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f6f6;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.knopka1 {
+    margin-right: 16px; /* Отступ между кнопками */
 }
