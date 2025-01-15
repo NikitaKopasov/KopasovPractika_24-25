@@ -13,6 +13,10 @@
     src: url('../fonts/DMSANS/DMSans-Regular.ttf');
 }
 @font-face {
+    font-family: 'DMSans-Medium';
+    src: url('../fonts/DMSANS/DMSans-Medium.ttf');
+}
+@font-face {
     font-family: 'Montserrat-Medium';
     src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
 }
@@ -180,7 +184,7 @@ section#AboutUs
     font-family: 'DMSans-Regular';
     color: #444444;
     line-height: 25px;
-    
+    margin-top: 20px;
 }
 .aboutImg
 {
@@ -252,13 +256,12 @@ section#AboutUs
     margin-top: 14px;
 }
 
-/*Секция OurnPopular Furniture*/
+/*Секция Ourn Popular Furniture*/
 
 section#Our-Popular-Furniture
 {
     width: 1200px;
-    height: 585px;
-    background-color: aliceblue;
+    height: 586px;
     margin-top: 140px;
 }
 .title-Our-Popular-Furniture
@@ -299,8 +302,293 @@ section#Our-Popular-Furniture
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 .knopka1 {
     margin-right: 16px; /* Отступ между кнопками */
+}
+
+/*Примеры*/
+
+.examples
+{
+    width: 1200px;
+    height: 382px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.SwanChair1
+{
+    width: 380px;
+    height: 382px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+.SwanChair2
+{
+    margin-left: 30px;
+    width: 380px;
+    height: 382px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+.title-button {
+    display: flex; /* Используем flexbox для расположения элементов в строку */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 30px;
+}
+
+.button-heart-share {
+    display: flex; /* Используем flexbox для кнопок */
+    margin-left: auto; /* Сдвигаем кнопки вправо */
+}
+.heart1 {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: none;
+    display: flex; /* Используем flexbox для центрирования содержимого */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    margin-left: 8px; /* Отступ между кнопками */
+    background-color: #EF5423;
+}
+.share
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: none;
+    display: flex; /* Используем flexbox для центрирования содержимого */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    margin-left: 8px; /* Отступ между кнопками */
+    background-color: #ecf4ff;
+}
+.heartwhite {
+    width: 10px;
+    height: 10px;
+}
+
+.title-SwanChair1
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #242424;
+    font-family: 'DMSans-Regular';
+}
+.price-button-title
+{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.link-price
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.button-price
+{
+    border: none;
+    width: 79px;
+    height: 32px;
+    background-color: #244d4d;
+    margin-left: auto;
+}
+.title-price
+{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'DMSans-Regular';
+    color: #154444;
+}
+.heart2 {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: none;
+    display: flex; /* Используем flexbox для центрирования содержимого */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    margin-left: 8px; /* Отступ между кнопками */
+    background-color: #ecf4ff;
+}
+
+/*All Furniture*/
+
+section#All-Furniture
+{
+    width: 1187px;
+    height: 594px;
+    margin: auto;
+    margin-top: 140px;
+}
+.title-All-Furniture
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #242424;
+    font-family: 'Montserrat-Medium';
+    text-align: center;
+}
+.Shop-category
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*Shop By Room*/
+
+.category-room 
+{
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    color: #154444; /* Цвет текста */
+    font-family: 'DMSans-Medium';
+      
+}
+.category-room::after 
+{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    width: 50%; /* Длина подчеркивания */
+    height: 2px; /* Толщина линии */
+    background-color: #004b44; /* Цвет подчеркивания */
+    transform: translateX(-50%);
+}
+
+/*Shop By Category*/
+
+.category-category
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: #919090;
+    font-family: 'DMSans-Regular';
+    margin-left: 100px;
+}
+
+/*Shop By Style*/
+
+.category-style
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: #919090;
+    font-family: 'DMSans-Regular';
+    margin-left: 104px;
+}
+/*Изображение с линиями по бокам*/
+.image-container { 
+    display: flex;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    position: relative; /* Для абсолютного позиционирования дочерних элементов */
+    height: 410px; 
+    width: 577px;
+}
+
+.rectangle1 {
+    width: 190px;
+    height: 86px;
+    background-color: #154444;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0; /* Сверху */
+    left: 0; /* Слева */
+    z-index: 1; /* Прямоугольник под изображением */
+}
+
+.rectangle2 {
+    width: 190px;
+    height: 86px;
+    background-color: #154444;
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 0; /* Снизу */
+    right: 0; /* Справа */
+    z-index: 1; /* Прямоугольник под изображением */
+}
+
+.image-container img {
+    position: relative; /* Позиционирование изображения */
+    z-index: 2; /* Изображение поверх прямоугольников */
+    max-width: 100%; /* Адаптация изображения по ширине контейнера */
+    height: auto; /* Сохранение пропорций изображения */
+}
+
+.info-allfurniture
+{
+    height: 410px;
+    width: 1187px;
+    margin-top: 90px;
+    display: flex
+}
+
+.primeri-category
+{
+    width: 474px;
+    height: 337px;
+    margin-top: 40px;
+    margin-left: 135px;
+    border: 2px solid black;
+}
+.primeri1
+{
+    display: flex;
+}
+/*Living Room*/
+.LivingRoom
+{
+    width: 222px;
+    height: 90px;
+    border: 1.5px solid #d9dce5;
+    
+}
+.ImgTextLiving
+{
+    width: 91px;
+    height: 59px;
+    text-align: center;
+    margin-left: 65.5px;
+    margin-top: 15.5px;
+}
+.text-living
+{
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+    font-family: 'DMSans-Regular';
+}
+/*Kitchen*/
+.Kitchen
+{
+    width: 222px;
+    height: 90px;
+    border: 1.5px solid #d9dce5;
+    margin-left: 30px;
+}
+.ImgTextKitchen
+{
+    width: 91px;
+    height: 59px;
+    text-align: center;
+    margin-left: 65.5px;
+    margin-top: 15.5px;
+}
+.text-Kitchen
+{
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+    font-family: 'DMSans-Regular';
 }
