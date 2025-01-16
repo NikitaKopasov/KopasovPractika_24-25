@@ -103,6 +103,7 @@ section#fon
     width: 488px;
     height: 75px;
     margin-top: 20px;
+    line-height: 25px;
 }
 .fon-button
 {
@@ -254,6 +255,7 @@ section#AboutUs
     font-family: 'DMSans-Regular';
     color: #383738;
     margin-top: 14px;
+    line-height: 25px;
 }
 
 /*Секция Ourn Popular Furniture*/
@@ -279,6 +281,7 @@ section#Our-Popular-Furniture
     font-family: 'DMSans-Regular';
     margin-top: 20px;
     width: 820px;
+    line-height: 27px;
 }
 /*Кнопки перехода*/
 .upper-part {
@@ -609,8 +612,8 @@ section#reviews
 }
 
 .ellipse {
-    width: 492px;
-    height: 493px;
+    width: 491px;
+    height: 491px;
     border-radius: 50%;
     background-color: #244d4d;
     position: absolute;
@@ -764,4 +767,127 @@ footer
     width: 100%;
     background-color: #305f64;
     margin-top: 140px;
+}
+section#info-footer
+{
+    width: 1200px;
+    height: 340px;
+    margin: auto;
+    display: flex;
+}
+
+.logo-footer
+{
+    margin-right: auto;
+    font-family: 'Montserrat-Regular';
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.text-footer
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    width: 308px;
+    font-family: 'DMSans-Regular';
+    margin-top: 24px;
+}
+.Follow
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: 'Montserrat-Regular';
+    margin-top: 40px;
+}
+.social-networks img {
+    margin-right: 10px; 
+    margin-top: 20px;
+}
+.logo-inf
+{
+    margin-right: 157px;
+}
+.title-Take-a-tour, .title-Our-company, .title-Subscribe
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: 'Montserrat-Regular';
+    margin-top: 101px;
+    margin-bottom: 24px;
+}
+.info-Take-a-tour-Our-company
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: 'DMSans-Regular';
+    margin-bottom: 16px;
+}
+.Our-company
+{
+    margin-left: 100px;
+}
+.text-subscribe
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: 'DMSans-Regular';
+    width: 240px;
+}
+.Subscribe-footer
+{
+    margin-left: 108px;
+}
+.email-footer {
+    width: 253px;
+    height: 48px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.email-form-footer {
+    border: none;
+    height: 25px;
+    margin-left: 22px;
+}
+
+.ellips-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ffb624;
+    border: none;
+    margin-left: auto; 
+    margin-right: 12px; 
+}
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #407980; 
+    margin-top: 40px;
+}
+
+.Copyright
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'DMSans-Regular';
+    margin-top: 20px;
+    text-align: center;
 }
