@@ -21,7 +21,7 @@
     src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
 }
 
-body
+main, header
 {
     margin: auto;
     max-width: 1200px;
@@ -591,4 +591,177 @@ section#All-Furniture
     font-weight: 500;
     color: #808080;
     font-family: 'DMSans-Regular';
+}
+
+/*Секция отзывы*/
+
+section#reviews
+{
+    width: 1200px;
+    height: 493px;
+    margin-top: 140px;
+    display: flex;
+}
+.reviewsImg {
+    width: 564px;
+    height: 493px;
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+}
+
+.ellipse {
+    width: 492px;
+    height: 493px;
+    border-radius: 50%;
+    background-color: #244d4d;
+    position: absolute;
+    left: 0; /* Располагаем круг слева */
+    top: 2px;
+    z-index: 1; /* Устанавливаем меньший z-index, чтобы круг оказался под изображением */
+}
+
+.reviewsImgEllipse {
+    position: absolute; 
+    right: 0;
+    top: 0;
+    z-index: 2; /* Устанавливаем больший z-index, чтобы изображение оказалось поверх круга */
+}
+
+.title-text-reviews
+{
+    width: 535px;
+    height: 191px;
+    margin-top: 105px;
+    margin-left: 100px;
+}
+.title-reviews
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #242424;
+    font-family: 'Montserrat-Medium';
+}
+.text-reviews
+{
+    width: 535px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #383738;
+    font-family: 'DMSans-Regular';
+    margin-top: 20px;
+}
+.client-assessment
+{
+    width: 129px;
+    height: 50px;
+    display: flex;
+    margin-top: 40px;
+}
+.star-assessment
+{
+    display: flex;
+    margin-top: 6px;
+}
+.star-assessment-name
+{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.name-client
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'DMSans-Medium';
+}
+.assessment
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'DMSans-Medium';
+    margin-left: 8px;
+}
+
+/*Рассылка по почте*/
+
+section#newsletter
+{
+    width: 1200px;
+    height: 394px;
+    background-color: #f4f6f6;
+    margin-top: 140px;
+}
+.title-text-newsletter-email
+{
+    width: 605px;
+    height: 164px;
+    text-align: center;
+    margin: auto;
+    padding-top: 68px;
+}
+.title-newsletter
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Montserrat-Medium';
+    line-height: 48px;
+}
+.text-newsletter
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+    font-family: 'DMSans-Regular';
+    width: 493px;
+    margin-left: 56px;
+    margin-top: 20px;
+}
+.newsletter-email {
+    display: flex; /* Включаем Flexbox */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    width: 472px;
+    height: 67px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 67px;
+}
+
+.email-form {
+    
+    height: 28px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: none;
+    width: 220px;
+}
+.emailImg
+{
+    margin-left: 17px;
+}
+.button-newsletter {
+    border: none;
+    width: 125px;
+    height: 52px;
+    background-color: #244d4d;
+    margin-left: auto;
+    margin-right: 19px;
+}
+
+.link-newsletter {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DMSans-Regular';
+}
+/*Подвал*/
+
+footer
+{
+    height: 442px;
+    width: 100%;
+    background-color: #305f64;
+    margin-top: 140px;
 }
