@@ -81,10 +81,10 @@ header nav ul li
     display: flex;
     overflow: hidden;
 }
-.fonImg
+.imagesFon
 {
-    height: 100%;
-    object-fit: cover;
+    width: 411px;
+    height: 560px;
 }
 .fon-text
 {
