@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import logo from './assets/images/smile.png';
 import plus from './assets/images/plus.png';
@@ -9,6 +8,19 @@ function App() {
   const [boardName, setBoardName] = useState('');
   const [boards, setBoards] = useState([]);
 
+  // Загружаем данные из localStorage при монтировании компонента
+  useEffect(() => {
+    const savedBoards = localStorage.getItem('boards');
+    if (savedBoards) {
+      setBoards(JSON.parse(savedBoards));
+    }
+  }, []);
+
+  // Сохраняем данные в localStorage при каждом изменении списка досок
+  useEffect(() => {
+    localStorage.setItem('boards', JSON.stringify(boards));
+  }, [boards]);
+
   const toggleForm = () => {
     setIsFormVisible(!isFormVisible);
     setBoardName('');
@@ -16,7 +28,7 @@ function App() {
 
   const handleSave = () => {
     if (boardName.trim()) {
-      setBoards([...boards, boardName.trim()]);
+      setBoards([...boards, boardName.trim()]); // Добавляем доску в список
       setBoardName('');
       setIsFormVisible(false);
     }
@@ -69,4 +81,3 @@ function App() {
 }
 
 export default App;
-
