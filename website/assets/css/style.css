@@ -80,11 +80,7 @@ header nav ul li
     margin-top: 27px;
     display: flex;
     overflow: hidden;
-}
-.imagesFon
-{
-    width: 411px;
-    height: 560px;
+    
 }
 .fon-text
 {
@@ -126,7 +122,6 @@ header nav ul li
     font-size: 20px;
     font-family: 'DMSans-Regular';
 }
-
 /*Секция №2 Trusted by 20,000+ companies*/
 
 .zagolovok1
@@ -836,6 +831,8 @@ section#info-footer
     color: #ffffff;
     font-family: 'DMSans-Regular';
     margin-bottom: 16px;
+    text-decoration: none;
+    display: block;
 }
 .Our-company
 {
