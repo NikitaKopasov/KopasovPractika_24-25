@@ -70,7 +70,10 @@ header nav ul li
     margin: 50px;
  }
 /* Фон с текстом */
-
+#fon 
+{
+    display: flex;
+}
 .info-fon
 {
     background: #154444;
@@ -78,9 +81,12 @@ header nav ul li
     height: 560px;
     margin: auto;
     margin-top: 27px;
-    display: flex;
     overflow: hidden;
     
+}
+.imagesFon
+{
+    margin-top: 26px;
 }
 .fon-text
 {
